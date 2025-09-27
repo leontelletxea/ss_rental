@@ -1,5 +1,6 @@
 import NavBar from './components/NavBar'
 import HeroSection from './components/HeroSection'
+import About from './components/About'
 import Footer from './components/Footer'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <NavBar />
       <HeroSection />
+      <About />
       <Footer />
     </>
   )

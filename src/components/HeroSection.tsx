@@ -7,29 +7,19 @@ const HeroSection = () => {
       
       {/* Content */}
       <div className="relative w-full px-6 py-24 sm:py-32">
-        {/* Announcement Banner */}
-        {/* <div className="text-center mb-8">
-          <div className="inline-flex items-center px-4 py-2 rounded-full bg-slate-800 bg-opacity-50 text-sm text-gray-300 border border-gray-700">
-            ¡Descuentos especiales en alquileres por semana! 
-            <a href="#" className="ml-2 text-blue-400 hover:text-blue-300 font-medium">
-              Ver ofertas →
-            </a>
-          </div>
-        </div> */}
-
         {/* Main Heading */}
         <div className="text-center">
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight">
-            Tu vehiculo
+            Tu vehículo
             <br />
             <span className="text-blue-400">
-              sin limites ni restricciones
+              sin límites ni restricciones
             </span>
           </h1>
           
           <p className="mt-6 max-w-4xl mx-auto text-xl text-gray-300 leading-relaxed">
             Vehículos completamente equipados para que manejes sin preocupaciones. <br />
-            Vos manejas, nosotros nos encargamos del resto.
+            Vos manejás, nosotros nos encargamos del resto.
           </p>
 
           {/* CTA Buttons */}

@@ -22,13 +22,13 @@ const NavBar = () => {
           {/* Desktop Menu */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <a href="#" className="text-white hover:text-blue-300 px-3 py-2 text-sm font-medium transition-colors">
+              <a href="#" className="text-white hover:text-gray-300 px-3 py-2 text-sm font-medium transition-colors">
                 Sobre nosotros
               </a>
-              <a href="#" className="text-white hover:text-blue-300 px-3 py-2 text-sm font-medium transition-colors">
+              <a href="#" className="text-white hover:text-gray-300 px-3 py-2 text-sm font-medium transition-colors">
                 Vehículos
               </a>
-              <a href="#" className="text-white hover:text-blue-300 px-3 py-2 text-sm font-medium transition-colors">
+              <a href="#" className="text-white hover:text-gray-300 px-3 py-2 text-sm font-medium transition-colors">
                 Como alquilar
               </a>
               <Button>Contacto</Button>
@@ -69,13 +69,13 @@ const NavBar = () => {
           }`}
         >
           <div className="px-6 pt-2 pb-3 space-y-1">
-            <a href="#" className="text-white hover:text-blue-300 block px-3 py-2 text-base font-medium transition-colors">
+            <a href="#" className="text-white hover:text-gray-300 block px-3 py-2 text-base font-medium transition-colors">
               Sobre nosotros
             </a>
-            <a href="#" className="text-white hover:text-blue-300 block px-3 py-2 text-base font-medium transition-colors">
+            <a href="#" className="text-white hover:text-gray-300 block px-3 py-2 text-base font-medium transition-colors">
               Vehículos
             </a>
-            <a href="#" className="text-white hover:text-blue-300 block px-3 py-2 text-base font-medium transition-colors">
+            <a href="#" className="text-white hover:text-gray-300 block px-3 py-2 text-base font-medium transition-colors">
               Tarifas
             </a>
             <div className="px-3 py-2">
