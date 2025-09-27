@@ -60,8 +60,8 @@ const About = () => {
                   </p>
                 </div>
                 {/* Location Pin */}
-                <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-2">
-                  <CheckCircleIcon className="w-5 h-5 text-gray-800" />
+                <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-3">
+                  <CheckCircleIcon className="w-6 h-6 text-gray-800" />
                 </div>
               </div>
             </div>
@@ -76,8 +76,8 @@ const About = () => {
                   </p>
                 </div>
                 {/* Location Pin */}
-                <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-2">
-                  <EyeIcon className="w-5 h-5 text-gray-800" />
+                <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-3">
+                  <EyeIcon className="w-6 h-6 text-gray-800" />
                 </div>
               </div>
             </div>
