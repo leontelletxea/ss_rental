@@ -91,10 +91,10 @@ const About = () => {
               {/* Step 1 */}
               <div className="text-center group">
                 <div className="relative mb-6">
-                  <div className="bg-blue-400 w-20 h-20 rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:shadow-blue-500/25 transition-all duration-300">
-                    <DocumentTextIcon className="w-8 h-8 text-gray-100" />
+                  <div className="bg-blue-200 w-20 h-20 rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:shadow-blue-300/25 transition-all duration-300">
+                    <DocumentTextIcon className="w-8 h-8 text-blue-600" />
                   </div>
-                  <div className="absolute -top-2 -right-2 bg-blue-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">
+                  <div className="absolute -top-2 -right-2 bg-blue-500 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">
                     1
                   </div>
                 </div>
@@ -108,8 +108,8 @@ const About = () => {
               {/* Step 2 */}
               <div className="text-center group">
                 <div className="relative mb-6">
-                  <div className="bg-blue-700 w-20 h-20 rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:shadow-blue-500/25 transition-all duration-300">
-                    <TruckIcon className="w-8 h-8 text-gray-100" />
+                  <div className="bg-blue-400 w-20 h-20 rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:shadow-blue-400/25 transition-all duration-300">
+                    <TruckIcon className="w-8 h-8 text-white" />
                   </div>
                   <div className="absolute -top-2 -right-2 bg-blue-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">
                     2
@@ -125,10 +125,10 @@ const About = () => {
               {/* Step 3 */}
               <div className="text-center group">
                 <div className="relative mb-6">
-                  <div className="bg-gray-700 w-20 h-20 rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:shadow-blue-500/25 transition-all duration-300">
-                    <PencilSquareIcon className="w-8 h-8 text-gray-100" />
+                  <div className="bg-blue-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:shadow-blue-600/25 transition-all duration-300">
+                    <PencilSquareIcon className="w-8 h-8 text-white" />
                   </div>
-                  <div className="absolute -top-2 -right-2 bg-blue-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">
+                  <div className="absolute -top-2 -right-2 bg-blue-700 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">
                     3
                   </div>
                 </div>
@@ -142,10 +142,10 @@ const About = () => {
               {/* Step 4 */}
               <div className="text-center group">
                 <div className="relative mb-6">
-                  <div className="bg-gray-800 w-20 h-20 rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:shadow-blue-500/25 transition-all duration-300">
-                    <CheckBadgeIcon className="w-8 h-8 text-gray-100" />
+                  <div className="bg-blue-700 w-20 h-20 rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:shadow-blue-700/25 transition-all duration-300">
+                    <CheckBadgeIcon className="w-8 h-8 text-white" />
                   </div>
-                  <div className="absolute -top-2 -right-2 bg-blue-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">
+                  <div className="absolute -top-2 -right-2 bg-blue-800 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">
                     4
                   </div>
                 </div>
