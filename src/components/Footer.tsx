@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="max-w-xs">
             <div className="flex items-center mb-4">
               <img 
-              src="/images/logo.svg" 
+              src="/images/logo_blanco.svg" 
               alt="SS Rental" 
               className="h-10 w-auto mr-3"
               />
