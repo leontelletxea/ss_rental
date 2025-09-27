@@ -1,4 +1,4 @@
-import { GlobeAltIcon, CheckCircleIcon, EyeIcon, StarIcon, TruckIcon, PencilSquareIcon, CheckBadgeIcon, DocumentTextIcon } from '@heroicons/react/24/outline';
+import { GlobeAltIcon, CheckCircleIcon, EyeIcon, TruckIcon, PencilSquareIcon, CheckBadgeIcon, DocumentTextIcon } from '@heroicons/react/24/outline';
 
 const About = () => {
   return (
@@ -33,43 +33,52 @@ const About = () => {
           </div>
 
           {/* Values Cards */}
-          <div className="space-y-6">
-            <div className="grid sm:grid-cols-2 gap-6">
-              <div className="bg-gray-50/80 backdrop-blur-sm p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-200">
-                <div className="flex items-center justify-between mb-4">
-                  <h4 className="text-xl font-semibold text-gray-900">Libertad</h4>
-                  <div className="bg-blue-100 p-2 rounded-lg">
-                    <GlobeAltIcon className="w-7 h-7 text-blue-600" />
-                  </div>
+          <div className="relative h-[700px] w-full">
+            {/* Main Central Circle - Libertad */}
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
+              <div className="relative">
+                <div className="w-72 h-72 bg-gradient-to-br from-blue-600 to-blue-700 rounded-full flex flex-col items-center justify-center text-center p-10 border-4 border-white">
+                  <h3 className="text-3xl font-bold text-white mb-3">Libertad</h3>
+                  <p className="text-blue-100 text-base leading-relaxed">
+                    Sin límites de velocidad ni distancia
+                  </p>
                 </div>
-                <p className="text-gray-600">Sin restricciones de kilometraje ni limitaciones geográficas</p>
+                {/* Location Pin */}
+                <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-3 z-10">
+                  <GlobeAltIcon className="w-6 h-6 text-gray-800" />
+                </div>
               </div>
-              <div className="bg-gray-50/80 backdrop-blur-sm p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-200">
-                <div className="flex items-center justify-between mb-4">
-                  <h4 className="text-xl font-semibold text-gray-900">Confianza</h4>
-                  <div className="bg-blue-100 p-2 rounded-lg">
-                    <CheckCircleIcon className="w-7 h-7 text-blue-600" />
-                  </div>
+            </div>
+
+            {/* Top Left Circle - Confianza */}
+            <div className="absolute top-8 left-4 z-10">
+              <div className="relative">
+                <div className="w-72 h-72 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex flex-col items-center justify-center text-center p-8 border-4 border-white">
+                  <h3 className="text-2xl font-bold text-white mb-3">Confianza</h3>
+                  <p className="text-blue-100 text-sm leading-relaxed">
+                    Vehículos certificados y seguros incluidos
+                  </p>
                 </div>
-                <p className="text-gray-600">Vehículos certificados y seguros integrales incluidos</p>
+                {/* Location Pin */}
+                <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-2">
+                  <CheckCircleIcon className="w-5 h-5 text-gray-800" />
+                </div>
               </div>
-              <div className="bg-gray-50/80 backdrop-blur-sm p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-200">
-                <div className="flex items-center justify-between mb-4">
-                  <h4 className="text-xl font-semibold text-gray-900">Transparencia</h4>
-                  <div className="bg-blue-100 p-2 rounded-lg">
-                    <EyeIcon className="w-7 h-7 text-blue-600" />
-                  </div>
+            </div>
+
+            {/* Top Right Circle - Transparencia */}
+            <div className="absolute top-96 right-8 z-30">
+              <div className="relative">
+                <div className="w-72 h-72 bg-gradient-to-br from-blue-700 to-blue-900 rounded-full flex flex-col items-center justify-center text-center p-8 border-4 border-white">
+                  <h3 className="text-2xl font-bold text-white mb-3">Transparencia</h3>
+                  <p className="text-blue-100 text-sm leading-relaxed">
+                    Precios claros sin costos ocultos
+                  </p>
                 </div>
-                <p className="text-gray-600">Precios claros sin costos ocultos ni sorpresas</p>
-              </div>
-              <div className="bg-gray-50/80 backdrop-blur-sm p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-200">
-                <div className="flex items-center justify-between mb-4">
-                  <h4 className="text-xl font-semibold text-gray-900">Excelencia</h4>
-                  <div className="bg-blue-100 p-2 rounded-lg">
-                    <StarIcon className="w-7 h-7 text-blue-600" />
-                  </div>
+                {/* Location Pin */}
+                <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-2">
+                  <EyeIcon className="w-5 h-5 text-gray-800" />
                 </div>
-                <p className="text-gray-600">Atención personalizada las 24 horas del día</p>
               </div>
             </div>
           </div>
@@ -89,9 +98,9 @@ const About = () => {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10">
               {/* Step 1 */}
-              <div className="text-center group">
+              <div className="text-center">
                 <div className="relative mb-6">
-                  <div className="bg-blue-200 w-20 h-20 rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:shadow-blue-300/25 transition-all duration-300">
+                  <div className="bg-blue-200 w-20 h-20 rounded-full flex items-center justify-center mx-auto shadow-lg">
                     <DocumentTextIcon className="w-8 h-8 text-blue-600" />
                   </div>
                   <div className="absolute -top-2 -right-2 bg-blue-500 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">
@@ -106,9 +115,9 @@ const About = () => {
               </div>
 
               {/* Step 2 */}
-              <div className="text-center group">
+              <div className="text-center">
                 <div className="relative mb-6">
-                  <div className="bg-blue-400 w-20 h-20 rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:shadow-blue-400/25 transition-all duration-300">
+                  <div className="bg-blue-400 w-20 h-20 rounded-full flex items-center justify-center mx-auto shadow-lg">
                     <TruckIcon className="w-8 h-8 text-white" />
                   </div>
                   <div className="absolute -top-2 -right-2 bg-blue-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">
@@ -123,9 +132,9 @@ const About = () => {
               </div>
 
               {/* Step 3 */}
-              <div className="text-center group">
+              <div className="text-center">
                 <div className="relative mb-6">
-                  <div className="bg-blue-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:shadow-blue-600/25 transition-all duration-300">
+                  <div className="bg-blue-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto shadow-lg">
                     <PencilSquareIcon className="w-8 h-8 text-white" />
                   </div>
                   <div className="absolute -top-2 -right-2 bg-blue-700 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">
@@ -140,9 +149,9 @@ const About = () => {
               </div>
 
               {/* Step 4 */}
-              <div className="text-center group">
+              <div className="text-center">
                 <div className="relative mb-6">
-                  <div className="bg-blue-700 w-20 h-20 rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:shadow-blue-700/25 transition-all duration-300">
+                  <div className="bg-blue-700 w-20 h-20 rounded-full flex items-center justify-center mx-auto shadow-lg">
                     <CheckBadgeIcon className="w-8 h-8 text-white" />
                   </div>
                   <div className="absolute -top-2 -right-2 bg-blue-800 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">
