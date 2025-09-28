@@ -2,7 +2,7 @@ const HeroSection = () => {
   return (
     <div className="relative overflow-hidden min-h-screen flex items-center">
       {/* Background Image */}
-      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{backgroundImage: 'url(/images/hero_section_2.jpg)'}}></div>
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{backgroundImage: 'url(/images/hero_section.jpg)'}}></div>
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       
       {/* Content */}
